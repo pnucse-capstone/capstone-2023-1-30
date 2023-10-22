@@ -7,6 +7,7 @@
 ### 프로젝트 목표
 강화학습을 수행하여, 모델을 생성, 평가하여 가장 적합한 매개변수를 판별해 가장 적합한 모델을 개발한다. 강화학습 모델의 결과를 웹으로 제공함으로 써 투자자에게 가치 있는 의사 결정 도구를 제공하는데 기여하고자 한다.
 ### 원본 Repository
+원본 Repository를 이용하면, 좀 더 수월하게 프로젝트를 진행할 수 있습니다.
 Front-End : https://github.com/minmunui/project-parasol-FE.git
 Reinforcement Learning : https://github.com/minmunui/project-parasol-crawl-rl
 Back-End : https://github.com/minmunui/project-parasol-be
