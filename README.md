@@ -2,16 +2,8 @@
 
 ## 프로젝트 소개
 
-### 프로젝트 목표
 강화학습을 수행하여, 모델을 생성, 평가하여 가장 적합한 매개변수를 판별해 가장 적합한 모델을 개발한다. 강화학습 모델의 결과를 웹으로 제공함으로 써 투자자에게 가치 있는 의사 결정 도구를 제공하는데 기여하고자 한다.
-### 원본 Repository
-원본 Repository를 이용하면, 좀 더 수월하게 프로젝트를 진행할 수 있습니다.
 
-Front-End : https://github.com/minmunui/project-parasol-FE.git
-
-Reinforcement Learning : https://github.com/minmunui/project-parasol-crawl-rl
-
-Back-End : https://github.com/minmunui/project-parasol-be
 ## 팀 소개
 ### 박동진
 ehdwls1638@pusan.ac.kr
@@ -34,8 +26,19 @@ jhjh307@naver.com
 
 ## 사용법
 
+### 원본 Repository
+
+
 각 기능별 디렉토리 내부의 `README.md` 파일을 참고하세요.
 ### 1. 프로젝트 클론
+
+해당 레포지토리를 클론합니다. 만약 해당 레포지토리에 접근할 수 없다면, 원본 레포지토리를 이용하세요.
+
+Front-End : https://github.com/minmunui/project-parasol-FE.git
+
+Reinforcement Learning : https://github.com/minmunui/project-parasol-crawl-rl
+
+Back-End : https://github.com/minmunui/project-parasol-be
 
 ```bash
 git clone <해당 프로젝트 주소>
@@ -52,4 +55,21 @@ git clone <해당 프로젝트 주소>
 
 ### 4. 프론트앤드 프로젝트 실행
 이 과정은 `project-parasol-FE` 프로젝트를 참고하세요.
+
+mocking된 데이터가 아닌 백앤드에 데이터를 받아오기 위해서는 
+
+`./project-parasol-fe/src/index.js` 파일에서 아래 부분을 주석처리합니다.
+
+```javascript
+if (process.env.NODE_ENV === "development") {
+    worker.start();
+}
+```
+
+또한 `./project-parasol-fe/.env` 파일을 생성해 백앤드 주소를 추가합니다.
+
+```
+REACT_APP_API_URL=http://localhost:80
+```
+
 웹 페이지가 실행되면 결과를 확인할 수 있습니다.
