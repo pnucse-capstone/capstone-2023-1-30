@@ -1,5 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/fnZ3vxy8)
-
 # 심층 강화학습을 이용한 주식투자 전략 개발
 
 ## 프로젝트 소개
@@ -21,7 +19,7 @@ ehdwls1638@pusan.ac.kr
 - 프론트앤드 개발
 - 강화학습 에이전트 학습 환경 개발
 ### 정희영
-
+h2young5618@pusan.ac.kr
 - 강화학습 에이전트 학습
 - 하이퍼파라미터 튜닝
 - 전체적인 강화학습 파트 구상
