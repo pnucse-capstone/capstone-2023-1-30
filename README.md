@@ -38,6 +38,10 @@
 
 ## 소개 및 시연 영상
 
+<!--[![영상 이름](유튜브 영상 썸네일 URL)](유투브 영상 URL)-->
+[![소개영상](http://img.youtube.com/vi/NnImqeOGRkuEsMAu/0.jpg)](https://youtu.be/AdCQVRH2IEA?si=NnImqeOGRkuEsMAu)  
+
+
 ## 사용법
 
 ### 원본 Repository
